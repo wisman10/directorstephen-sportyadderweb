@@ -1,0 +1,164 @@
+
+<!-- saved from url=(0049)https://allappsreveiws.com.ng/sportybet/done.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://allappsreveiws.com.ng/sportybet/unnamed.png">
+    <script src="./transfer successful_files/jquery.min.js.download"></script>
+    <title>Sportybet wizard | Successful Transaction</title>
+    </head>
+    <body>
+    <style>
+    body {
+        padding: 10px;
+    }
+    .checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: red;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+    }
+
+    .checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px red;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+    }
+
+    .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+    }
+
+    @keyframes stroke {
+    100% {
+    stroke-dashoffset: 0;
+    }
+    }
+    @keyframes scale {
+    0%, 100% {
+    transform: none;
+    }
+    50% {
+    transform: scale3d(1.1, 1.1, 1);
+    }
+    }
+    @keyframes fill {
+    100% {
+    box-shadow: inset 0px 0px 0px 30px red;
+    }
+    }
+    /* ---------- main -----*/
+    * {
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-image: linear-gradient(to right, rgb(125, 125, 231), pink); */
+    }
+    .box{
+    width: 20%;
+    height: 500px;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 10px;
+    /* box-shadow: grey 7px 7px 7px 7px; */
+    }
+    @media only screen and (max-width: 700px) {
+    .box{
+    width: 75%;
+    height: 580px;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 10px;
+    /* box-shadow: grey 7px 7px 7px 7px; */
+    }
+    }
+    .box input{
+    width: 92%;
+    height: 40px;
+    margin: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    display: block;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+    }
+    .box img {
+    width: 120px;
+    margin: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    display: block;
+    }
+    .box h3, P{
+    text-align: center;
+    }
+    .box h4 {
+    text-align: center;
+    color: red;
+    }
+    .box button {
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, rgb(125, 125, 231), pink);
+    color: black;
+    }
+    .box button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+
+    }
+    h6 {
+    background-color: rgb(179, 232, 202);
+    border-radius: 13px;
+    text-align: center;
+    height: 20px;
+    }
+    </style>
+    <div class="box">
+    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"></circle>
+    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path>
+    </svg>
+    <h3 style="color: red; font-size: 18px;">Successful</h3>
+    <p style=" background-color:white;"><span id="amount" style="font-weight: bold;"></span> </p>
+    <p style=" background-color:white; font-size: 16px; font-weight: bold;">Successfully added</p>
+   <br>
+    <!-- <P style=" background-color:white;">Succefully Withdraw</P><br> -->
+    <center>
+    <p style="font-size: 16px; font-weight: bold;">TO:</p>
+    </center>
+    <p><span id="Phone" style="font-weight: bold;">KK@gmail.com</span></p>
+    <br>
+    <h4 style="color: black; font-size: 12px;">The Sportybet account bearing the above Phonenumber wiil receive the funds immediately.</h4>
+    </div>
+    <script>
+    document.getElementById("Phone").innerHTML=localStorage.getItem("textvalue");
+    document.getElementById("amount").innerHTML=localStorage.getItem("textmiddle");
+    </script>
+
+    </body></html>

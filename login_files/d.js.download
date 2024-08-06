@@ -1,0 +1,10 @@
+function myImg() {
+    alert("Ready to buy Password now?")
+}
+function pasuser(form) {
+    if
+     (form.pass.value=="200512") { location="logged in.html" }
+    else { alert("Wrong Password, Buy Now!");
+    window.location.assign('payment.html');
+ }
+}
